@@ -8,3 +8,16 @@
 
   <%= button_to "Destroy this book review", @book_review, method: :delete %>
 </div>
+
+<%
+=begin%>
+    show listt
+<%
+=end%>
+
+<div> 
+  <%= link_to "Edit this book review", edit_book_review_path(@book_review) %> |
+  <%= link_to "Back to book reviews", book_reviews_path %>
+
+  <%= button_to "Destroy this book review", @book_review, method: :delete %>
+</div>
